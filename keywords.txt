@@ -6,11 +6,18 @@
 # Datatypes (KEYWORD1)
 ##################################################
 
+PIRsensor KEYWORD1
 ##################################################
 # Methods and Functions (KEYWORD2)
 ##################################################
 
-begin	KEYWORD2
+begin	     KEYWORD2
+getState     KEYWORD2
+setDelay     KEYWORD2
+sendAddress  KEYWORD2
+readData     KEYWORD2
+readRegister KEYWORD2
+sendData     KEYWORD2
 
 ##################################################
 # Constants (LITERAL1)
