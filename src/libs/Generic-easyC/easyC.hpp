@@ -5,7 +5,7 @@
  * @brief       Basic funtions for easyC libraries
  *
  *
- * @copyright GNU General Public License v3.0
+ * @copyright   GNU General Public License v3.0
  * @authors     Goran Juric @ soldered.com
  ***************************************************/
 
@@ -15,12 +15,12 @@
 #include "Arduino.h"
 #include "Wire.h"
 
-#define ANALOG_READ_REG 0
+#define ANALOG_READ_REG  0
 #define DIGITAL_READ_REG 1
 
 class EasyC
 {
-public:
+  public:
     /**
      * @brief       Main constructor for easyC version
      *
