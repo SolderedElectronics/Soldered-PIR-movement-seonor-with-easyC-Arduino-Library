@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>16x2 easyC LCD Library: Sensor Class Reference</title>
+<title>Pir movement sensor with easyC: PIRsensor Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,9 +28,9 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">16x2 easyC LCD Library<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">Pir movement sensor with easyC<span id="projectnumber">&#160;1.0.0</span>
    </div>
-   <div id="projectbrief">This is a library for the 16x2 easyC LCD Module</div>
+   <div id="projectbrief">Library to control PIR sensor with easyC created by Soldered</div>
   </td>
  </tr>
  </tbody>
@@ -67,7 +67,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('class_sensor.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('class_p_i_rsensor.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -97,20 +97,32 @@ $(document).ready(function(){initNavTree('class_sensor.html',''); initResizable(
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="class_sensor-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Sensor Class Reference</div></div>
+<a href="class_p_i_rsensor-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">PIRsensor Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_generic-easy_c-_s_o_l_d_e_r_e_d_8h_source.html">Generic-easyC-SOLDERED.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_p_i_r-easy_c-_s_o_l_d_e_r_e_d_8h_source.html">PIR-easyC-SOLDERED.h</a>&gt;</code></p>
 
 <p>Inherits <a class="el" href="class_easy_c.html">EasyC</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2b8ea6b15267f6fa0e263f57a09f6b62"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensor.html#a2b8ea6b15267f6fa0e263f57a09f6b62">Sensor</a> (int _pin)</td></tr>
-<tr class="memdesc:a2b8ea6b15267f6fa0e263f57a09f6b62"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_sensor.html">Sensor</a> specific native constructor.  <a href="class_sensor.html#a2b8ea6b15267f6fa0e263f57a09f6b62">More...</a><br /></td></tr>
-<tr class="separator:a2b8ea6b15267f6fa0e263f57a09f6b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ef525d6e4c004550597325d0eeb6ee7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p_i_rsensor.html#a5ef525d6e4c004550597325d0eeb6ee7">PIRsensor</a> (int _pin)</td></tr>
+<tr class="memdesc:a5ef525d6e4c004550597325d0eeb6ee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">PIR native constructor.  <a href="class_p_i_rsensor.html#a5ef525d6e4c004550597325d0eeb6ee7">More...</a><br /></td></tr>
+<tr class="separator:a5ef525d6e4c004550597325d0eeb6ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4e972dd17c8ab7c1c6524c97f8a1fd4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p_i_rsensor.html#ab4e972dd17c8ab7c1c6524c97f8a1fd4">PIRsensor</a> (void)</td></tr>
+<tr class="memdesc:ab4e972dd17c8ab7c1c6524c97f8a1fd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">PIR easyC constructor.  <a href="class_p_i_rsensor.html#ab4e972dd17c8ab7c1c6524c97f8a1fd4">More...</a><br /></td></tr>
+<tr class="separator:ab4e972dd17c8ab7c1c6524c97f8a1fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3abfc7ccae197ea8ad4471cae14d07d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p_i_rsensor.html#a3abfc7ccae197ea8ad4471cae14d07d9">PIRsensor</a> (byte _address)</td></tr>
+<tr class="memdesc:a3abfc7ccae197ea8ad4471cae14d07d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">PIR easyC constructor with address which is not default.  <a href="class_p_i_rsensor.html#a3abfc7ccae197ea8ad4471cae14d07d9">More...</a><br /></td></tr>
+<tr class="separator:a3abfc7ccae197ea8ad4471cae14d07d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a534574fd12de6de3c9edbe35a264fb25"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p_i_rsensor.html#a534574fd12de6de3c9edbe35a264fb25">getState</a> (void)</td></tr>
+<tr class="memdesc:a534574fd12de6de3c9edbe35a264fb25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to get state of PIR sensor.  <a href="class_p_i_rsensor.html#a534574fd12de6de3c9edbe35a264fb25">More...</a><br /></td></tr>
+<tr class="separator:a534574fd12de6de3c9edbe35a264fb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bfd376a0a15be0c532c7ee9d2cd875e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p_i_rsensor.html#a5bfd376a0a15be0c532c7ee9d2cd875e">setDelay</a> (uint32_t <a class="el" href="class_p_i_rsensor.html#ac397161a248bf97d8b28132d5437426b">delayTime</a>)</td></tr>
+<tr class="memdesc:a5bfd376a0a15be0c532c7ee9d2cd875e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set how long the output will be on high when the sensor is triggered.  <a href="class_p_i_rsensor.html#a5bfd376a0a15be0c532c7ee9d2cd875e">More...</a><br /></td></tr>
+<tr class="separator:a5bfd376a0a15be0c532c7ee9d2cd875e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_easy_c"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_easy_c')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_easy_c.html">EasyC</a></td></tr>
 <tr class="memitem:a2ea672a225a32eab52c2b20733fd26bd inherit pub_methods_class_easy_c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd">EasyC</a> ()</td></tr>
 <tr class="memdesc:a2ea672a225a32eab52c2b20733fd26bd inherit pub_methods_class_easy_c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main constructor for easyC version.  <a href="class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd">More...</a><br /></td></tr>
@@ -138,14 +150,20 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:adb537c76173019fddf84b2d89e6c6559"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensor.html#adb537c76173019fddf84b2d89e6c6559">initializeNative</a> ()</td></tr>
-<tr class="memdesc:adb537c76173019fddf84b2d89e6c6559"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overloaded function for virtual in base class to initialize sensor specific.  <a href="class_sensor.html#adb537c76173019fddf84b2d89e6c6559">More...</a><br /></td></tr>
-<tr class="separator:adb537c76173019fddf84b2d89e6c6559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a218c40139b249ad8b469eca33dcadd10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p_i_rsensor.html#a218c40139b249ad8b469eca33dcadd10">initializeNative</a> ()</td></tr>
+<tr class="memdesc:a218c40139b249ad8b469eca33dcadd10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overloaded function for virtual in base class to initialize PIR sensor.  <a href="class_p_i_rsensor.html#a218c40139b249ad8b469eca33dcadd10">More...</a><br /></td></tr>
+<tr class="separator:a218c40139b249ad8b469eca33dcadd10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a0efecf34431610766469857f25e113da"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sensor.html#a0efecf34431610766469857f25e113da">pin</a></td></tr>
-<tr class="separator:a0efecf34431610766469857f25e113da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15cfa53ccc8e5aace1dadce01d5eab01"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p_i_rsensor.html#a15cfa53ccc8e5aace1dadce01d5eab01">pin</a></td></tr>
+<tr class="separator:a15cfa53ccc8e5aace1dadce01d5eab01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a285ef8ce74a3f15ba52a0d3570755e1e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p_i_rsensor.html#a285ef8ce74a3f15ba52a0d3570755e1e">state</a> = 0</td></tr>
+<tr class="separator:a285ef8ce74a3f15ba52a0d3570755e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46a7f8821c4c0449ce63fb9f3a24dd31"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p_i_rsensor.html#a46a7f8821c4c0449ce63fb9f3a24dd31">addr</a> = 0x30</td></tr>
+<tr class="separator:a46a7f8821c4c0449ce63fb9f3a24dd31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac397161a248bf97d8b28132d5437426b"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p_i_rsensor.html#ac397161a248bf97d8b28132d5437426b">delayTime</a> = 2000</td></tr>
+<tr class="separator:ac397161a248bf97d8b28132d5437426b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -162,14 +180,14 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a9052ae674b3553bbb19283278299f395 inherit pub_attribs_class_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a2b8ea6b15267f6fa0e263f57a09f6b62" name="a2b8ea6b15267f6fa0e263f57a09f6b62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b8ea6b15267f6fa0e263f57a09f6b62">&#9670;&#160;</a></span>Sensor()</h2>
+<a id="a5ef525d6e4c004550597325d0eeb6ee7" name="a5ef525d6e4c004550597325d0eeb6ee7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ef525d6e4c004550597325d0eeb6ee7">&#9670;&#160;</a></span>PIRsensor() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Sensor::Sensor </td>
+          <td class="memname">PIRsensor::PIRsensor </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>_pin</em></td><td>)</td>
@@ -178,19 +196,80 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_sensor.html">Sensor</a> specific native constructor. </p>
+<p>PIR native constructor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">int</td><td>_pin Example parameter. </td></tr>
+    <tr><td class="paramname">int</td><td>_pin Pin on the Arduino connected to PIR sensor. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
+<a id="ab4e972dd17c8ab7c1c6524c97f8a1fd4" name="ab4e972dd17c8ab7c1c6524c97f8a1fd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4e972dd17c8ab7c1c6524c97f8a1fd4">&#9670;&#160;</a></span>PIRsensor() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PIRsensor::PIRsensor </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>PIR easyC constructor. </p>
+
+</div>
+</div>
+<a id="a3abfc7ccae197ea8ad4471cae14d07d9" name="a3abfc7ccae197ea8ad4471cae14d07d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3abfc7ccae197ea8ad4471cae14d07d9">&#9670;&#160;</a></span>PIRsensor() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PIRsensor::PIRsensor </td>
+          <td>(</td>
+          <td class="paramtype">byte&#160;</td>
+          <td class="paramname"><em>_address</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>PIR easyC constructor with address which is not default. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="adb537c76173019fddf84b2d89e6c6559" name="adb537c76173019fddf84b2d89e6c6559"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb537c76173019fddf84b2d89e6c6559">&#9670;&#160;</a></span>initializeNative()</h2>
+<a id="a534574fd12de6de3c9edbe35a264fb25" name="a534574fd12de6de3c9edbe35a264fb25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a534574fd12de6de3c9edbe35a264fb25">&#9670;&#160;</a></span>getState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PIRsensor::getState </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function to get state of PIR sensor. </p>
+<dl class="section return"><dt>Returns</dt><dd>State of the PIR sensor. </dd></dl>
+
+</div>
+</div>
+<a id="a218c40139b249ad8b469eca33dcadd10" name="a218c40139b249ad8b469eca33dcadd10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a218c40139b249ad8b469eca33dcadd10">&#9670;&#160;</a></span>initializeNative()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -199,7 +278,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Sensor::initializeNative </td>
+          <td class="memname">void PIRsensor::initializeNative </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -212,15 +291,41 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Overloaded function for virtual in base class to initialize sensor specific. </p>
+<p>Overloaded function for virtual in base class to initialize PIR sensor. </p>
 
 <p>Implements <a class="el" href="class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998">EasyC</a>.</p>
 
 </div>
 </div>
+<a id="a5bfd376a0a15be0c532c7ee9d2cd875e" name="a5bfd376a0a15be0c532c7ee9d2cd875e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bfd376a0a15be0c532c7ee9d2cd875e">&#9670;&#160;</a></span>setDelay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PIRsensor::setDelay </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>_delayTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set how long the output will be on high when the sensor is triggered. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">delayTime</td><td>Time to hold the output on HIGH after triggering the PIR in seconds. Default is 2 seconds. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a0efecf34431610766469857f25e113da" name="a0efecf34431610766469857f25e113da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0efecf34431610766469857f25e113da">&#9670;&#160;</a></span>pin</h2>
+<a id="a46a7f8821c4c0449ce63fb9f3a24dd31" name="a46a7f8821c4c0449ce63fb9f3a24dd31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46a7f8821c4c0449ce63fb9f3a24dd31">&#9670;&#160;</a></span>addr</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229,7 +334,73 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int Sensor::pin</td>
+          <td class="memname">byte PIRsensor::addr = 0x30</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac397161a248bf97d8b28132d5437426b" name="ac397161a248bf97d8b28132d5437426b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac397161a248bf97d8b28132d5437426b">&#9670;&#160;</a></span>delayTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t PIRsensor::delayTime = 2000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a15cfa53ccc8e5aace1dadce01d5eab01" name="a15cfa53ccc8e5aace1dadce01d5eab01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15cfa53ccc8e5aace1dadce01d5eab01">&#9670;&#160;</a></span>pin</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int PIRsensor::pin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a285ef8ce74a3f15ba52a0d3570755e1e" name="a285ef8ce74a3f15ba52a0d3570755e1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a285ef8ce74a3f15ba52a0d3570755e1e">&#9670;&#160;</a></span>state</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PIRsensor::state = 0</td>
         </tr>
       </table>
   </td>
@@ -242,8 +413,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="_generic-easy_c-_s_o_l_d_e_r_e_d_8h_source.html">Generic-easyC-SOLDERED.h</a></li>
-<li><a class="el" href="_generic-easy_c-_s_o_l_d_e_r_e_d_8cpp.html">Generic-easyC-SOLDERED.cpp</a></li>
+<li><a class="el" href="_p_i_r-easy_c-_s_o_l_d_e_r_e_d_8h_source.html">PIR-easyC-SOLDERED.h</a></li>
+<li><a class="el" href="_p_i_r-easy_c-_s_o_l_d_e_r_e_d_8cpp.html">PIR-easyC-SOLDERED.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -251,9 +422,9 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath">
     <!-- id is needed for treeview function! -->
     <ul>
-        <li class="navelem"><a class="el" href="class_sensor.html">Sensor</a></li>
+        <li class="navelem"><a class="el" href="class_p_i_rsensor.html">PIRsensor</a></li>
         <li class="footer">
-            Generated on Mon Nov 14 2022 10:11:30 for 16x2 easyC LCD Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Wed Nov 16 2022 06:47:17 for Pir movement sensor with easyC by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.5.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.

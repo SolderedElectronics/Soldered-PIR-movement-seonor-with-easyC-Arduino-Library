@@ -24,8 +24,8 @@
 */
 var NAVTREE =
 [
-  [ "16x2 easyC LCD Library", "index.html", [
-    [ "NAZIV PROIZVODA Arduino library", "index.html", [
+  [ "Pir movement sensor with easyC", "index.html", [
+    [ "PIR movement sensor with easyC Arduino library", "index.html", [
       [ "Have fun!", "index.html#autotoc_md8", null ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -46,7 +46,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_generic-easy_c-_s_o_l_d_e_r_e_d_8cpp.html"
+"_p_i_r-easy_c-_s_o_l_d_e_r_e_d_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
