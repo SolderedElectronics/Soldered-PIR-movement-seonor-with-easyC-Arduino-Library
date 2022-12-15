@@ -18,7 +18,7 @@ You can find hardware design for this board in *PIR movement sensor with easyC* 
 
 ### Documentation
 
-Access Arduino library documentation [here](https://github.com/SolderedElectronics/Soldered-PIR-movement-seonor-with-easyC-Arduino-Library).
+Access Arduino library documentation [here](https://github.io/SolderedElectronics/Soldered-PIR-movement-seonor-with-easyC-Arduino-Library).
 
 - Tutorial for using the NAZIV PROIZVODA board
 - Installing an Arduino library
