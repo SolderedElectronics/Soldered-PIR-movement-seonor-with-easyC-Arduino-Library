@@ -28,25 +28,22 @@ void setup()
   Wire.begin(addr);
   Wire.onReceive(receiveEvent);
   Wire.onRequest(requestEvent);
-  /*
-      Serial.begin(115200);
-      Serial.println("BOK pir");
-  */
+
   pinMode(PA4, OUTPUT); // Output for led on the breakout
   pinMode(PA5, INPUT);  // Pir's output is attitiny's input
 
   cTime = timeOfChange = millis();
   PIRstate = 0;
-  delayTime = 2000;
+  delayTime = 5000;
 }
 
 void loop()
 {
   cTime = millis();
   currentState = digitalRead(PA5);  
-  if (currentState == HIGH) // ako se dogodila promijena
+  if (currentState == HIGH) // If the change occurs
   {
-    timeOfChange = millis(); // upamti vrijeme kada se dogodi promijena
+    timeOfChange = millis(); // Remember the time when it's occurs
     PIRstate = 1;
   }
 

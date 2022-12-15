@@ -4,7 +4,7 @@
 
 | ![PIR movement sensor with easyC](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [PIR movement sensor with easyC](https://www.solde.red/SKU)                                                            |
+| [PIR movement sensor with easyC](https://www.solde.red/333179)                                                            |
 
 PIR movement sensor compliant to [easyC ecosystem](https://www.soldered.com/en/easyC). 
 
@@ -18,9 +18,9 @@ You can find hardware design for this board in *PIR movement sensor with easyC* 
 
 ### Documentation
 
-Access Arduino library documentation [here](https://github.io/SolderedElectronics/Soldered-PIR-movement-seonor-with-easyC-Arduino-Library).
+Access Arduino library documentation [here](https://solderedelectronics.github.io/Soldered-PIR-movement-seonor-with-easyC-Arduino-Library/).
 
-- Tutorial for using the NAZIV PROIZVODA board
+- Tutorial for using the PIR movement sensor with easyC Arduino board
 - Installing an Arduino library
 
 ### Board compatibility
@@ -38,11 +38,6 @@ At Soldered, we design and manufacture a wide selection of electronic products t
 - [Web Store](https://www.soldered.com/shop)
 - [Tutorials & Projects](https://soldered.com/learn)
 - [Community & Technical support](https://soldered.com/community)
-
-
-### Original source
-​
-This library is possible thanks to original [arduino-mcp23017](https://github.com/blemasle/arduino-mcp23017) library. Thank you, blemasle. 
 
 
 ### Open-source license
