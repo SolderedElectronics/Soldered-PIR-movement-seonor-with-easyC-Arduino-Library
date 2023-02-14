@@ -25,9 +25,7 @@
 var NAVTREE =
 [
   [ "Pir movement sensor with easyC", "index.html", [
-    [ "PIR movement sensor with easyC Arduino library", "index.html", [
-      [ "Have fun!", "index.html#autotoc_md7", null ]
-    ] ],
+    [ "PIR movement sensor with easyC Arduino library", "index.html", "index" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
