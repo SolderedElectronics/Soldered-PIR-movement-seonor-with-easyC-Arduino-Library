@@ -89,3 +89,17 @@ bool PIRsensor::getState()
         return state;
     }
 }
+
+/**
+ * @brief                   The function checks if the PIR is available.
+ *
+ * @return                  1 if the PIR is available, i if it's not.
+ */
+bool PIRsensor::available()
+{
+    Wire.beginTransmission(address);
+    if (Wire.endTransmission() == 0)
+        return 1;
+
+    return 0;
+}

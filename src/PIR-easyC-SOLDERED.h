@@ -23,6 +23,7 @@ class PIRsensor : public EasyC
     PIRsensor(byte _address);
     bool getState(void);
     void setDelay(uint32_t delayTime);
+    bool available();
 
   protected:
     void initializeNative();
