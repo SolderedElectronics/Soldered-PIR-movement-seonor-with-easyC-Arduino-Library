@@ -1,7 +1,7 @@
 /**
  **************************************************
 
-   @file        attiny_firmware
+   @file        attiny_firmware.ino
    @brief       Attiny firmware for PIR with easyC.
 
 
@@ -12,10 +12,10 @@
 #include <Wire.h>
 
 int addr = DEFAULT_ADDRESS;   // 0x30 is default address
-byte PIRstate = 0;            // Variable that holds PIR state for sending
+bool currentState;            // Current (real) PIR state
+byte PIRstate = 0;            // Virtual PIR state - the state that breakout send
 uint32_t delayTime;           // Variable for storing delay
 byte data[4];                 // Array for receiving delay time in bytes
-bool currentState;            // Current PIR state
 uint64_t cTime, timeOfChange; // Variables for keeping track of time
 
 
@@ -41,16 +41,16 @@ void setup()
 
 void loop()
 {
-    cTime = millis(); // Get current time
-    currentState = digitalRead(PA5);
+    cTime = millis();                // Get current time
+    currentState = digitalRead(PA5); // Get current state
 
     // If the change occurs
-    if (currentState == HIGH) 
+    if (currentState == HIGH)
     {
         // Remember the time when it's occurs
-        timeOfChange = millis(); 
+        timeOfChange = millis();
 
-        // Set movement variable for sending to 1
+        // Set virtual PIR state 
         PIRstate = 1;
     }
 
@@ -62,11 +62,11 @@ void loop()
     }
     else
     {
-        // Set pir state for sending to 0
+        // Reset virtual PIR state
         PIRstate = 0;
 
         // Set new current time
-        cTime = timeOfChange; // probati bez ovoga
+        cTime = timeOfChange;
 
         // Turn off the LED on breakout
         digitalWrite(PA4, LOW);
@@ -85,7 +85,7 @@ void receiveEvent(int howMany)
         i++;
     }
 
-    // Convert received data to the uint32_t
+    // Convert received data to the uint32_t which represents the delay time
     delayTime = *(uint32_t *)data;
 }
 

@@ -10,6 +10,10 @@
  *
  *  IMPORTANT: The sensor needs some time for detection. The time is around 5 seconds so if you put in the setDelay
  *  function time lower than 5 seconds, the sensor won't work as you expect.
+ * 
+ *  NOTE: The sensor needs some time to detect a movement (around 1 sec) and it holds that state for some time.
+ *        This means that your reading will not be instantaneous, and that the sensor will be in an active state 
+ *        for a little bit longer than is defined in the setDelay function.
  *
  *
  * @link        solde.red/333179
