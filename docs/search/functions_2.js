@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['getstate_0',['getState',['../class_p_i_rsensor.html#a534574fd12de6de3c9edbe35a264fb25',1,'PIRsensor']]]
+  ['easyc_0',['EasyC',['../class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd',1,'EasyC']]]
 ];

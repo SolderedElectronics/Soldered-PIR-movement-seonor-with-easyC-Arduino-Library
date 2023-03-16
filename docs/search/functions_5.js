@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['readdata_0',['readData',['../class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a',1,'EasyC']]],
-  ['readregister_1',['readRegister',['../class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376',1,'EasyC']]]
+  ['pirsensor_0',['PIRsensor',['../class_p_i_rsensor.html#a5ef525d6e4c004550597325d0eeb6ee7',1,'PIRsensor::PIRsensor(int _pin)'],['../class_p_i_rsensor.html#ab4e972dd17c8ab7c1c6524c97f8a1fd4',1,'PIRsensor::PIRsensor(void)'],['../class_p_i_rsensor.html#a3abfc7ccae197ea8ad4471cae14d07d9',1,'PIRsensor::PIRsensor(byte _address)']]]
 ];
