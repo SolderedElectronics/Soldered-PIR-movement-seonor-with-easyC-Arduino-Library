@@ -31,8 +31,7 @@ class PIRsensor : public EasyC
   private:
     int pin;
     bool state = 0;
-    byte addr = 0x30;
-    uint32_t delayTime = 2000;
+    uint32_t delayTime = 5000;
 };
 
 #endif
