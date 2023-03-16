@@ -1,7 +1,7 @@
 /**
  **************************************************
  *
- * @file        PIRreading.ino
+ * @file        PIRreadingEasyC.ino
  * @brief       Simple reading example for PIR sensor with easyC
  *
  *  Connect the breakout via easyC to the microcontroller and upload this code on it. When the sensor detects motion,
